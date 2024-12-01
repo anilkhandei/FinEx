@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{F5572499-6B9B-4EF2-9F75-57970D4A1BD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{63D26E77-A2CA-4BB8-BCE6-5D00001681EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinEx.Core", "FinEx.Core\FinEx.Core.csproj", "{F75ADEB7-F78A-4302-84F3-0E808AB3925D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinEx.Infrastructure", "FinEx.Infrastructure\FinEx.Infrastructure.csproj", "{4F7ED1CF-6F3E-4973-B50A-14FC72162539}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinEx.Application", "FinEx.Application\FinEx.Application.csproj", "{F452469F-5A98-42A7-ADBA-AC626AB07D01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinEx.API", "FinEx.API\FinEx.API.csproj", "{D6ACE6AB-5B92-407A-BB75-D5A97B40379D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinEx.BlazorUI", "FinEx.BlazorUI\FinEx.BlazorUI.csproj", "{9B18C1A1-82F5-47AC-97AF-C73E00F5FF6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Tests", "Application.Tests\Application.Tests.csproj", "{7CACCBC3-15E1-4D95-A128-D8506BBBEAF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F75ADEB7-F78A-4302-84F3-0E808AB3925D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F75ADEB7-F78A-4302-84F3-0E808AB3925D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F75ADEB7-F78A-4302-84F3-0E808AB3925D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F75ADEB7-F78A-4302-84F3-0E808AB3925D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F7ED1CF-6F3E-4973-B50A-14FC72162539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F7ED1CF-6F3E-4973-B50A-14FC72162539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F7ED1CF-6F3E-4973-B50A-14FC72162539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F7ED1CF-6F3E-4973-B50A-14FC72162539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F452469F-5A98-42A7-ADBA-AC626AB07D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F452469F-5A98-42A7-ADBA-AC626AB07D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F452469F-5A98-42A7-ADBA-AC626AB07D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F452469F-5A98-42A7-ADBA-AC626AB07D01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6ACE6AB-5B92-407A-BB75-D5A97B40379D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6ACE6AB-5B92-407A-BB75-D5A97B40379D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6ACE6AB-5B92-407A-BB75-D5A97B40379D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6ACE6AB-5B92-407A-BB75-D5A97B40379D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B18C1A1-82F5-47AC-97AF-C73E00F5FF6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B18C1A1-82F5-47AC-97AF-C73E00F5FF6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B18C1A1-82F5-47AC-97AF-C73E00F5FF6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B18C1A1-82F5-47AC-97AF-C73E00F5FF6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CACCBC3-15E1-4D95-A128-D8506BBBEAF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CACCBC3-15E1-4D95-A128-D8506BBBEAF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CACCBC3-15E1-4D95-A128-D8506BBBEAF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CACCBC3-15E1-4D95-A128-D8506BBBEAF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F75ADEB7-F78A-4302-84F3-0E808AB3925D} = {F5572499-6B9B-4EF2-9F75-57970D4A1BD4}
+		{4F7ED1CF-6F3E-4973-B50A-14FC72162539} = {F5572499-6B9B-4EF2-9F75-57970D4A1BD4}
+		{F452469F-5A98-42A7-ADBA-AC626AB07D01} = {F5572499-6B9B-4EF2-9F75-57970D4A1BD4}
+		{D6ACE6AB-5B92-407A-BB75-D5A97B40379D} = {F5572499-6B9B-4EF2-9F75-57970D4A1BD4}
+		{9B18C1A1-82F5-47AC-97AF-C73E00F5FF6F} = {F5572499-6B9B-4EF2-9F75-57970D4A1BD4}
+	EndGlobalSection
+EndGlobal

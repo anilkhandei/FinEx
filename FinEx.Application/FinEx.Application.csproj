@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Expenses\" />
+    <Folder Include="Categories\" />
+    <Folder Include="Budgets\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FinEx.Core\FinEx.Core.csproj" />
+  </ItemGroup>
+
+</Project>
